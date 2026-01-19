@@ -1,1 +1,240 @@
+<!DOCTYPE html>
+<!--ANVITA ARUN 24BCE1173-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>DEMO WEBSITE</title>
+</head>
+<body>
+    <header>    
+        <h1> Welcome to the Demo Website </h1>
+        <hr />
+    </header>
+    <section id="description">
+        <p>FYI:</p>
+        <p>Headings preferred is <b><span class="green-text">Dark Green</span></b> colour</p>
+        <p>Background preferred is <b><span class="beige-bg">Beige</span></b> colour</p>
+        <p>Text styles preferred are <span class="font-style">Italic</span> and <span class="font-weight">Bold</span></p>
+        <p>Shapes preferred are <b>square</b> and <b>circle</b></p>
+        <div class="square-shape"> </div>
+        <br>
+        <div class="circle-shape"> </div>
+        <br>
+        <div class="font-prop font-color">
+            <div class="topic-text-prop">
+                <p><b>Sample using preferred font:</b></p>
+            </div>
+            <p>Timor Leste</p>
+            <p>Canada</p>
+            <p>Eswatini</p>
+            <p>Paraguay</p>
+            <p>Micronesia</p>
+            <p>Liechtenstein</p>
+        </div>
+        <br>
+        <div class="w3-container">
+            <p>Sample of plain W3 Container class</p>
+        </div>
+        <div class="w3-container w3-red">
+            <p>Sample of using only a red W3-color class</p>
+        </div>
+        <div class="w3-container w3-teal">
+            <p>Sample of using only a teal W3-color class</p>
+        </div>
+        <article class="w3-container w3-serif">
+            <p>An article using serif font in w3-container</p>
+        </article>
+        <section class="w3-container w3-sans-serif">
+            <p>A section using sans-serif font in w3-container</p>
+        </section>
+        <p style="color:orangered;background-color:rgba(143, 0, 255, 0.3);border:3px dotted dodgerblue">Sample of Color properties</p>
+        <p class="a thick small">Sample of font styling</p>
+    </section>
+    <nav>
+        <a href="#Contents">Contents Covered</a> |
+        <a href="#About">About Courses</a> |
+        <a href="#Details">Student Details</a> |
+        <a href="#Code">Sample Code</a> |
+        <a href="#Media">Sample Media</a> |
+        <a href="#SVG">SVG Mickey Mouse</a> |
+        <a href="#Contact">Contact Details</a> |
+    </nav>
+    <br />
 
+    <section id="Contents">
+        <h2>Contents Covered</h2>
+        <ul class="list">
+            <li>Tables</li>
+            <li>Code related Elements</li>
+            <li>Header, Nav, Section, Article, Aside, Footer</li>
+            <li>Audio, Video</li>
+            <li>SVG</li>
+        </ul>
+    </section>
+    <br />
+    <br/>
+
+    <section id="About">
+        <h2>About Courses</h2>
+        <article>
+            <h3>CSE</h3>
+            <section id="part1">
+                <p>A Computer Science Engineering (CSE) course, typically a 4-year B.Tech/BE, teaches the design, development,
+                    and analysis of software and hardware, focusing on programming, algorithms, data structures, operating systems,
+                    and networks, with modern paths including AI/ML, Cloud Computing, and Data Science. It combines theory and
+                    hands-on practice, preparing students for roles in the booming IT industry as software engineers,
+                    data scientists, and system analysts, requiring strong logical and problem-solving skills. </p>
+            </section>
+        </article>
+        <article>
+            <h3>EEE</h3>
+            <section id="part2">
+                <p>An Electrical and Electronics Engineering (EEE) course teaches the principles of electricity, electronics,
+                    and electromagnetism, covering areas like power systems, control systems, signal processing, and
+                    electronic devices to design, develop, and maintain electrical systems and gadgets, leading to careers in energy,
+                    telecom, automotive, and tech industries. These programs are offered as B.Tech, B.E., M.Tech, and Diplomas,
+                    focusing on both core theory and practical skills in circuit analysis, machine operation, and modern applications
+                    like smart grids and embedded systems. </p>
+            </section>
+        </article>
+        <article>
+            <h3>MECH</h3>
+            <section id="part3">
+                <p>A mechanical engineering course, typically a 4-year B.Tech/B.E., teaches the design, analysis, manufacturing,
+                    and maintenance of mechanical systems, covering core topics like thermodynamics, fluid mechanics, material science,
+                    and dynamics, using software like CAD/MATLAB for practical application in industries from automotive to aerospace.
+                    Courses blend theory with hands-on labs and projects, building skills in problem-solving, design, and modern tools
+                    for careers in manufacturing, energy, robotics, and more. </p>
+                </section>
+        </article>
+    </section>
+    <br/>
+    <br/>
+
+    <section id="Details">
+        <h2>Student Details</h2>
+        <table border="1" style="width: 100%" cellpadding="5" cellspacing="5">
+            <colgroup>
+                <col span="2" style="background-color: skyblue">
+                <col style="background-color: plum;">
+                <col style="background-color:lightgreen">
+                </colgroup>
+            <tr style="background-color: rgb(233, 237, 19);">
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Course</th>
+            </tr>
+            <tr>
+                <td>Artha</td>
+                <td>Vamsi</td>
+                <td>19</td>
+                <td>CSE</td>
+            </tr>
+            <tr>
+                <td>Saketh</td>
+                <td>Tripathi</td>
+                <td>20</td>
+                <td>EEE</td>
+            </tr>
+            <tr>
+                <td>Sowmya</td>
+                <td>Rajesh</td>
+                <td>18</td>
+                <td>MECH</td>
+            </tr>
+        </table>
+    </section>
+    <br/>
+    <br/>
+
+    <section id="Code">
+        <h2>Sample C Code</h2>
+        <aside>
+           <pre>
+            <code>
+                #include < stdio.h >
+                int main() {
+                    float base, height, area;
+
+                    printf("Enter base: ");
+                    scanf("%f", &base);
+
+                    printf("Enter height: ");
+                    scanf("%f", &height);
+
+                    area = 0.5 * base * height;
+                    printf("Area of the triangle = %.2f\n", area);
+
+                    return 0;
+                }
+
+            </code>
+           </pre> 
+        </aside>
+        Perimeter = <var>a</var> + <var>b</var> + <var>c</var>, where <var>a</var>, <var>b</var>, <var>c</var> = lengths of sides
+        <p>To save code: <kbd>Ctrl + S</kbd></p>
+        <p>Possible Error: <samp>File not found.</samp></p>
+    </section>
+    <br/>
+    <br/>
+
+    <section id="Media">
+        <div class="sub1">
+            <h2>Sample Media</h2>
+            <p>Sample Audio:</p>
+            <audio controls>
+                <source src="" type="audio/mp3">
+            </audio>
+            <br/>
+            <br/>
+            <p>Sample Video:</p>
+            <video width="640" height="360" controls>
+                <source src="" type="video/mp4"
+            </video>
+        </div>
+    </section>
+    <br/>
+    <br/>
+    <br/>
+    <section id="SVG">
+        <div class="sub2">
+            <h2>SVG Micky Mouse</h2>
+            <svg width="200" height="300">
+                <!--head--><circle cx="100" cy="55" r="30" stroke="black" stroke-width="2" fill="black"/>
+                <!--face--><circle cx="100" cy="55" r="25" stroke="#FFDAB9" stroke-width="2" fill="#FFDAB9"/>
+                <!--left ear--><circle cx="75" cy="20" r="15" stroke="black" stroke-width="2" fill="black"/>
+                <!--inner left ear--><circle cx="75" cy="20" r="5" stroke="#FFDAB9" stroke-width="2" fill="#FFDAB9"/>
+                <!--right ear--><circle cx="125" cy="20" r="15" stroke="black" stroke-width="2" fill="black"/>
+                <!--inner right ear--><circle cx="125" cy="20" r="5" stroke="#FFDAB9" stroke-width="2" fill="#FFDAB9"/>
+                <!--nose--><circle cx="100" cy="55" r="3" stroke="black" stroke-width="2" fill="black"/>
+                <!--mouth--><ellipse cx = "100" cy="70" rx = "7" ry="2" stroke="white" stroke-width="2" fill="white"/>
+                <!--left eye--><circle cx="90" cy="45" r="4" stroke="white" stroke-width="2" fill="white"/>
+                <!--inner left eye--><circle cx="90" cy="45" r="2" stroke="black" stroke-width="2" fill="black"/>
+                <!--right eye--><circle cx="110" cy="45" r="4" stroke="white" stroke-width="2" fill="white"/>
+                <!--inner right eye--><circle cx="110" cy="45" r="2" stroke="black" stroke-width="2" fill="black"/>
+                <!--body--><circle cx="100" cy="125" r="40" stroke="black" stroke-width="2" fill="black"/>
+                <!--inner body--><ellipse cx="100" cy="125" rx="25" ry="30" stroke="#FFDAB9" stroke-width="2" fill="#FFDAB9"/>
+            </svg>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <div class="sub3">
+            <h2>Contact Details</h2>
+            <p>Phone No. : 9786423105
+                <br/>
+                Mail ID : anv.ita@gmail.com
+                <br/>
+            </p>
+        </div>
+    </section>
+    
+    <hr />
+    <footer>
+        <p align="center">© 2026 Demo Website | Designed by Anvita Arun</p>
+    </footer>
+</body>
+</html>
