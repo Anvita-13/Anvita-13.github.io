@@ -1,0 +1,96 @@
+/*Header and para elements*/
+h1 {
+    color:black;
+    text-align:center;
+    font-family:'Times New Roman';
+    font-size:40px;
+}
+h2, h3 {
+    color:darkgreen;
+    font-size:22px;
+}
+p {
+    margin-left:10px;
+    font-size:18px;
+}
+
+/*Class - list*/
+.list {
+    font-size:18px;
+    color:darkred;
+    margin-left:10px;
+}
+
+/*Using div class for block-level organisation*/
+.sub1, .sub2, .sub3 {
+    font-style:italic;
+    color:purple;
+}
+
+/*Selectors*/
+#Code {
+    color:darkblue;
+}
+
+#part1,#part2, #part3 {
+    color:darkorange;
+}
+
+/*Using span class for inline organisation and styling*/
+.green-text {
+    color:darkgreen;
+}
+.beige-bg {
+    background-color:beige;
+}
+.font-style {
+    font-style:italic;
+}
+.font-weight {
+    font-weight:bold;
+}
+
+/*Using div for shapes*/
+body {
+    align-items:center;
+    justify-content:center;
+    margin:0 auto;
+    height:100vh;
+}
+.square-shape {
+    background-color:darkgoldenrod;
+    height:200px;
+    width:200px;
+}
+.circle-shape {
+    background-color:darkturquoise;
+    height:200px;
+    width:200px;
+    border-radius:50%;
+}
+
+/*Using div for font properties*/
+.font-prop {
+    font-family:'Libre Baskerville';
+    font-size:1.3rem;
+    font-style:italic;
+}
+.font-color {
+    color:darkorchid;
+    background-color:whitesmoke;
+}
+.topic-text-prop {
+    text-transform:uppercase;
+    text-decoration:underline;
+}
+
+/*font styling*/
+p.a {
+    font-style:italic;
+}
+p.thick {
+    font-weight:bold;
+}
+p.small {
+    font-variant:small-caps;
+}
